@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS usuarios;
+
+USE usuarios;
+
+CREATE TABLE registros (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    nombre VARCHAR(50) DEFAULT NULL,
+    fecha DATE DEFAULT NULL,
+    sexo VARCHAR(50) DEFAULT NULL,
+    PRIMARY KEY (id)
+);
+
+DESCRIBE registros;
